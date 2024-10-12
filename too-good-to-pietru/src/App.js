@@ -10,7 +10,7 @@ import './App.css'; // Optional CSS file for styling
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className='container'>
         <Routes>
           <Route path="/" exact element={<Home/>} />
           {/* <Route path="/wedding-info" element={WeddingInfo} /> */}

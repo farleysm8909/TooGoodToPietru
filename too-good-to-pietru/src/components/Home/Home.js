@@ -1,20 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Home.css'; // Optional CSS file for styling
+import './Home.css';
+import Hero from '../../images/IMG_3527_crop.jpg';
 
 const Home = () => {
   return (
     <div className="home">
-      <h1>Welcome to Our Wedding</h1>
-      <p>Join us in celebrating our love on [Date]!</p>
-      <nav>
-        <ul>
-          {/* <li><Link to="/wedding-info">Wedding Info</Link></li> */}
-          <li><Link to="/our-story">Our Story</Link></li>
-          {/* <li><Link to="/attractions">Attractions</Link></li>
-          <li><Link to="/registry">Registry</Link></li> */}
-        </ul>
-      </nav>
+      <h1>Samantha and Scott</h1>
+      <p>Join us in celebrating our love on January 2, 2026!</p>
+      <p>Venue details here</p>
+      <p>Address</p>
+      <p>etc.</p>
+      <img src={Hero} alt="Sam and Scott" />
     </div>
   );
 };

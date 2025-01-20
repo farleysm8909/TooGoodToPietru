@@ -1,1 +1,112 @@
-.OurStory {}
+/* Timeline code adapted from Script Tutorials
+   https://www.script-tutorials.com/vertical-timeline-with-css-and-javascript/ */
+
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#cd-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background: #1f0b37;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.cd-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.cd-timeline-block:first-child {
+  margin-top: 0;
+}
+
+.cd-timeline-block {
+  position: relative;
+  margin: 4em 0;
+}
+
+.cd-timeline-content {
+  margin-left: 0;
+  width: 42%;
+  position: relative;
+  background: white;
+  border-radius: 0.25em;
+  border: 2px solid #651dd8;
+  padding: 1em;
+  box-shadow: 0 3px 0 #d8d5dc;
+}
+
+.cd-timeline-block:nth-child(even) .cd-timeline-content {
+  float: right;
+}
+
+.cd-timeline-block:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.cd-timeline-img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  left: 50%;
+  margin-left: -30px;
+  margin-top: 0px;
+  position: absolute;
+  top: 0;
+  backface-visibility: hidden;
+  background: white;
+  box-shadow: 0 0 0 4px #651dd8, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.icon {
+  display: block;
+  position: relative;
+}
+
+.regularIcon {
+  width: 50px;
+  height: 50px;
+  left: 9%;
+  top: 10%;
+}
+
+.smallIcon {
+  width: 40px;
+  height: 40px;
+  left: 16%;
+  top: 15%;
+}
+
+/* --------RESPONSIVE DESIGN-------- */
+
+@media (max-width: 900px) {
+  .cd-timeline-img {
+    display: none;
+  }
+
+  .cd-timeline-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cd-timeline-content {
+    width: 90%;
+  }
+
+  .cd-timeline-block:nth-child(even) .cd-timeline-content {
+    float: none;
+  }
+}

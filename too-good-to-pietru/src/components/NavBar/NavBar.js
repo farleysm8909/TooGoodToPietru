@@ -4,8 +4,9 @@ import { Link, NavLink } from 'react-router-dom';
 
 export const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <nav>
+    <nav className="navBar">
       <Link to="/" className="title">
         Home
       </Link>

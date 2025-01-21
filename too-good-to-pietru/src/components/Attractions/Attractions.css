@@ -1,1 +1,11 @@
-.Attractions {}
+.attractions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.attraction {
+  max-width: 300px;
+  margin: 16px;
+}

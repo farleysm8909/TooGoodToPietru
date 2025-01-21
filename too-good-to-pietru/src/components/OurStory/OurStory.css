@@ -91,6 +91,12 @@
 
 /* --------RESPONSIVE DESIGN-------- */
 
+@media (max-width: 1200px) {
+  .ourStory {
+    width: 90%;
+  }
+}
+
 @media (max-width: 900px) {
   .cd-timeline-img {
     display: none;

@@ -60,7 +60,7 @@ nav .menu span {
   border-radius: 0.2rem;
 }
 
-@media (max-width: 564px) {
+@media (max-width: 650px) {
   nav .menu {
     display: flex;
   }

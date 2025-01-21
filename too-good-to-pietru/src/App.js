@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
+import RSVP from './components/RSVP/RSVP';
 import WeddingInfo from './components/WeddingInfo/WeddingInfo';
 import OurStory from './components/OurStory/OurStory';
 import Attractions from './components/Attractions/Attractions';
@@ -16,6 +17,7 @@ const App = () => {
       <div className="container">
         <Routes>
           <Route path="/" exact element={<Home />} />
+          <Route path="rsvp" element={<RSVP />} />
           <Route path="/wedding-info" element={<WeddingInfo />} />
           <Route path="/our-story" element={<OurStory />} />
           <Route path="/attractions" element={<Attractions />} />

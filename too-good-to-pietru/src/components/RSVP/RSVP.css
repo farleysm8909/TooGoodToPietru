@@ -1,5 +1,6 @@
-@media (max-width: 1200px) {
-  .rsvp {
-    width: 90%;
-  }
+.rsvpPage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

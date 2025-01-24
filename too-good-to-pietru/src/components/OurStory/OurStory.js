@@ -18,9 +18,11 @@ const OurStory = () => {
   ];
 
   return (
-    <div className="ourStory">
-      <h1>Our Story</h1>
-      <p>A timeline of Sam and Scott's history together.</p>
+    <div className="storyPage">
+      <div className="heading">
+        <h1>Our Story</h1>
+        <p>A timeline of Sam and Scott's history together.</p>
+      </div>
       <section id="cd-timeline" className="cd-container cssanimations">
         <div className="cd-timeline-block">
           <div className="cd-timeline-img">

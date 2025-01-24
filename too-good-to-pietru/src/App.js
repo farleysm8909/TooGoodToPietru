@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './App.css'; // Optional CSS file for styling
 import Home from './components/Home/Home';
 import RSVP from './components/RSVP/RSVP';
 import WeddingInfo from './components/WeddingInfo/WeddingInfo';
 import OurStory from './components/OurStory/OurStory';
 import Attractions from './components/Attractions/Attractions';
 import Registry from './components/Registry/Registry';
-import './App.css'; // Optional CSS file for styling
 import { NavBar } from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 
@@ -15,6 +15,7 @@ const App = () => {
     <Router>
       <NavBar />
       <div className="container">
+        {/* sticky footer https://stackoverflow.com/questions/18739937/how-to-keep-footer-at-bottom-of-screen */}
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="rsvp" element={<RSVP />} />

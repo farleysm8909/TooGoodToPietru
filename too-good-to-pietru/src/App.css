@@ -12,3 +12,19 @@ h5,
 h6 {
   color: #1f0b37;
 }
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* --------RESPONSIVE DESIGN-------- */
+
+@media (max-width: 767px) {
+  .heading {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

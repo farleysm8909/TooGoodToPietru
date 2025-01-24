@@ -3,9 +3,11 @@ import './WeddingInfo.css';
 
 const WeddingInfo = () => {
   return (
-    <div>
-      <h1>Wedding Information</h1>
-      <p>This is where we share the plan.</p>
+    <div className="weddingPage">
+      <div className="heading">
+        <h1>Wedding Information</h1>
+        <p>This is where we share the plan.</p>
+      </div>
     </div>
   );
 };

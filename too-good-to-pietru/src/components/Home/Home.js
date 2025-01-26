@@ -11,7 +11,9 @@ const Home = () => {
         <p>Join us in celebrating our love on January 2, 2026!</p>
         <p>Bloomington, MN</p>
         <p>
-          <Link to="/rsvp">RSVP</Link>
+          <Link to="/rsvp">
+            <button id="rsvpBtn">RSVP</button>
+          </Link>
         </p>
       </div>
       <img src={Hero} alt="Sam and Scott" />

@@ -15,7 +15,6 @@ const App = () => {
     <Router>
       <NavBar />
       <div className="container">
-        {/* sticky footer https://stackoverflow.com/questions/18739937/how-to-keep-footer-at-bottom-of-screen */}
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="rsvp" element={<RSVP />} />

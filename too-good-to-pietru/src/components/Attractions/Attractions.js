@@ -21,12 +21,16 @@ const Attractions = () => {
             Largest mall in the United States with over 520 stores, includes an
             indoor amusement park, an aquarium, arcades and mini golf.
           </p>
-          <img src={Moa} alt="Mall of America star logo" />
+          <a href="https://www.mallofamerica.com/">
+            <img src={Moa} alt="Mall of America star logo" />
+          </a>
         </div>
         <div className="attraction">
           <h3>Hyland Hills Ski Area</h3>
           <p>Hill for downhill skiing and snowboarding.</p>
-          <img src={HHSA} alt="Hyland Hills SKi Area logo" />
+          <a href="https://www.threeriversparks.org/location/hyland-hills-ski-area">
+            <img src={HHSA} alt="Hyland Hills SKi Area logo" />
+          </a>
         </div>
         <div className="attraction">
           <h3>Minneapolis Institute of Art</h3>
@@ -34,7 +38,9 @@ const Attractions = () => {
             Home to more than 100,000 works of art representing 5,000 years of
             world history. General admission is free.
           </p>
-          <img src={Mia} alt="Minneapolis Institute of Art logo" />
+          <a href="https://new.artsmia.org/">
+            <img src={Mia} alt="Minneapolis Institute of Art logo" />
+          </a>
         </div>
       </div>
     </div>

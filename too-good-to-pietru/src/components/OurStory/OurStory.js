@@ -8,20 +8,13 @@ import ring from '../../images/icons/ring.png';
 import rings from '../../images/icons/rings.png';
 
 const OurStory = () => {
-  const items = [
-    {
-      title: 'Scott messages "bet" to Sam via Hinge DM',
-      cardTitle: 'First contact',
-      cardDetailedText:
-        'Sam\'s profile contained the prompt "My simple pleasures" to which she shared her response as "Newspaper puzzles, walks outside and beating you in MarioKart.',
-    },
-  ];
-
   return (
     <div className="storyPage">
-      <div className="heading">
-        <h1>Our Story</h1>
-        <p>A timeline of Sam and Scott's history together.</p>
+      <div className="headingContainer">
+        <div className="headingContent">
+          <h1>Our Story</h1>
+          <p>A timeline of Sam and Scott's history together.</p>
+        </div>
       </div>
       <section id="cd-timeline" className="cd-container cssanimations">
         <div className="cd-timeline-block">

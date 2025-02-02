@@ -3,4 +3,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 4rem;
+}
+
+/* --------RESPONSIVE DESIGN-------- */
+
+@media (max-width: 1200px) {
+  .rsvpPage {
+    width: 90%;
+  }
 }

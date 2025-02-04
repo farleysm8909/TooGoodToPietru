@@ -18,8 +18,8 @@ const Attractions = () => {
           </p>
         </div>
       </div>
-      <div className="attractions">
-        <div className="attraction">
+      <div className="gridContainer">
+        <div className="gridItem attraction">
           <h3>Mall of America</h3>
           <p>
             Largest mall in the United States with over 520 stores, includes an
@@ -29,7 +29,7 @@ const Attractions = () => {
             <img src={Moa} alt="Mall of America star logo" />
           </a>
         </div>
-        <div className="attraction">
+        <div className="gridItem attraction">
           <h3>Minnehaha Falls and Regional Park</h3>
           <p>
             Enjoy 2+ miles of walking/hiking trails along with a view of the
@@ -42,7 +42,7 @@ const Attractions = () => {
             <img src={ParksAndRec} alt="Minnehaha Falls during winter" />
           </a>
         </div>
-        <div className="attraction">
+        <div className="gridItem attraction">
           <h3>Minneapolis Institute of Art</h3>
           <p>
             Home to more than 100,000 works of art representing 5,000 years of
@@ -52,7 +52,7 @@ const Attractions = () => {
             <img src={Mia} alt="Minneapolis Institute of Art logo" />
           </a>
         </div>
-        <div className="attraction">
+        <div className="gridItem attraction">
           <h3>Mall of America</h3>
           <p>
             Largest mall in the United States with over 520 stores, includes an
@@ -62,7 +62,7 @@ const Attractions = () => {
             <img src={Moa} alt="Mall of America star logo" />
           </a>
         </div>
-        <div className="attraction">
+        <div className="gridItem attraction">
           <h3>Hyland Hills Ski Area</h3>
           <p>Hill for downhill skiing and snowboarding.</p>
           <a
@@ -72,7 +72,7 @@ const Attractions = () => {
             <img src={HHSA} alt="Hyland Hills SKi Area logo" />
           </a>
         </div>
-        <div className="attraction">
+        <div className="gridItem attraction">
           <h3>Minneapolis Institute of Art</h3>
           <p>
             Home to more than 100,000 works of art representing 5,000 years of

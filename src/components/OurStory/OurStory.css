@@ -141,4 +141,13 @@
   .storyPageContent {
     margin: 0;
   }
+
+  #tooGoodToPietru {
+    width: 90%;
+    margin: 10%;
+  }
+
+  #tooGoodToPietru iframe {
+    width: 100%;
+  }
 }

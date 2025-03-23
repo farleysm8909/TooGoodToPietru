@@ -1,9 +1,13 @@
-.weddingPage {
+.weddingPageContainer {
   width: 100%;
+  margin-bottom: 4rem;
+}
+
+.weddingPageContent {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 4rem;
+  margin: 0 10%;
 }
 
 .infoBlockContainer {
@@ -28,8 +32,8 @@
 
 /* --------RESPONSIVE DESIGN-------- */
 
-@media (max-width: 1200px) {
-  .weddingPage {
-    width: 90%;
+@media (max-width: 800px) {
+  .weddingPageContainer {
+    margin: 0;
   }
 }

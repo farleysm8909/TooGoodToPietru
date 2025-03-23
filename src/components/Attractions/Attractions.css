@@ -1,26 +1,19 @@
-.attractionsPage {
+.attractionsPageContainer {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 4rem;
 }
 
-.attraction h3,
-.attraction p {
-  width: 100%;
-} /* delete this since common? */
-
-.attraction img {
-  max-width: 250px;
-  max-height: 250px;
-  object-fit: cover;
+.attractionsPageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10%;
 }
 
 /* --------RESPONSIVE DESIGN-------- */
 
-@media (max-width: 1200px) {
-  .attractionsPage {
-    width: 90%;
+@media (max-width: 800px) {
+  .attractionsPageContent {
+    margin: 0;
   }
 }

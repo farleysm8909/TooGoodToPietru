@@ -9,7 +9,7 @@ const Home = () => {
       <div className="heading homeHeading">
         <h1>Samantha and Scott</h1>
         <p>Join us in celebrating our love on January 2, 2026!</p>
-        <p>Bloomington, MN</p>
+        <p>Minneapolis, MN</p>
         <p>
           <Link to="/rsvp">
             <button id="rsvpBtn">RSVP</button>

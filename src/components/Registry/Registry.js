@@ -3,11 +3,13 @@ import './Registry.css';
 
 const Registry = () => {
   return (
-    <div className="registryPage">
-      <div className="headingContainer">
-        <div className="headingContent">
-          <h1>Our Registry</h1>
-          <p>This is where we ask for moneys.</p>
+    <div className="registryPageContainer">
+      <div className="registryPageContent">
+        <div className="headingContainer">
+          <div className="headingContent">
+            <h1>Our Registry</h1>
+            <p>Registry content to go here!</p>
+          </div>
         </div>
       </div>
     </div>

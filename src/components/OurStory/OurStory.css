@@ -1,9 +1,13 @@
-.storyPage {
+.storyPageContainer {
   width: 100%;
+  margin-bottom: 4rem;
+}
+
+.storyPageContent {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 4rem;
+  margin: 0 10%;
 }
 
 /* Timeline code adapted from Script Tutorials
@@ -105,7 +109,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .cd-timeline-img {
     display: none;
   }
@@ -122,5 +126,11 @@
 
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .storyPageContent {
+    margin: 0;
   }
 }

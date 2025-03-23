@@ -1,15 +1,19 @@
-.rsvpPage {
+.rsvpPageContainer {
   width: 100%;
+  margin-bottom: 4rem;
+}
+
+.rsvpPageContent {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 4rem;
+  margin: 0 10%;
 }
 
 /* --------RESPONSIVE DESIGN-------- */
 
-@media (max-width: 1200px) {
-  .rsvpPage {
-    width: 90%;
+@media (max-width: 800px) {
+  .rsvpPageContent {
+    margin: 0;
   }
 }

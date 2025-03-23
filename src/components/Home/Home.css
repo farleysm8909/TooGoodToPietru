@@ -15,7 +15,7 @@
 }
 
 #rsvpBtn {
-  background-color: #04aa6d; /* Green */
+  background-color: #651dd8;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -30,7 +30,7 @@
 }
 
 #rsvpBtn:hover {
-  background-color: #457e69; /* Green */
+  background-color: #3d0f87;
   color: white;
   cursor: pointer;
 }

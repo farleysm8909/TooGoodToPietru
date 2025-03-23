@@ -124,6 +124,26 @@ const OurStory = () => {
             </div>
           </div>
         </section>
+        <section id="tooGoodToPietru">
+          <h2>What is Too Good to Pietru?</h2>
+          <p>
+            This is the wedding hashtag Sam came up with while listening to her
+            favorite band, Rascal Flatts, on the way to Sam and Scott's first
+            camping trip in New Hampshire. The band has a song called "Too Good
+            is True" which has a cute message and conveniently rhymes with part
+            of Scott's last name, Pietruniak. Give it a listen!
+          </p>
+          <iframe
+            width="650"
+            height="350"
+            src="https://www.youtube.com/embed/U9F1LLHEbpc?si=Y93aoKFBW8yuPCQD"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </section>
       </div>
     </div>
   );

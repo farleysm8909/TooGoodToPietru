@@ -83,8 +83,8 @@ const OurStory = () => {
               </p>
               <p>
                 They went to Cheeky Monkey, got street meat outside of Fenway
-                Park, kayaked on the Charles, ate dinner at the Liberty Hotel
-                (foreshadowing perhaps?).
+                Park, kayaked on the Charles, and ate dinner at the Liberty
+                Hotel (foreshadowing perhaps?).
               </p>
             </div>
           </div>
@@ -113,8 +113,8 @@ const OurStory = () => {
               <p>
                 Sam met Scott's parents for the first time when they took a trip
                 out to Salem, MA and saw her first Patriots game that weekend.
-                She met Scott's brother later in Vegas... for her second Green
-                Day concert.
+                She met Scott's brother later in Vegas for her first All Time
+                Low concert... and her second Green Day concert.
               </p>
             </div>
           </div>
@@ -185,7 +185,8 @@ const OurStory = () => {
             <div className="cd-timeline-content">
               <h3>Winter 2023</h3>
               <p>
-                Sam and Scott spent the holidays together for the first time.
+                Sam and Scott spent the holidays together for the first time in
+                Syracuse, NY and Tower, MN.
               </p>
             </div>
           </div>

@@ -6,6 +6,14 @@ import car from '../../images/icons/car.png';
 import house from '../../images/icons/house.png';
 import ring from '../../images/icons/ring.png';
 import rings from '../../images/icons/rings.png';
+import tent from '../../images/icons/tent.png';
+import heart from '../../images/icons/heart.png';
+import cowboy from '../../images/icons/cowboy.png';
+import airplane from '../../images/icons/airplane.png';
+import cake from '../../images/icons/cake.png';
+import helmet from '../../images/icons/helmet.png';
+import greenDay from '../../images/icons/greenDay.png';
+import snowflake from '../../images/icons/snowflake.png';
 
 const OurStory = () => {
   return (
@@ -90,7 +98,7 @@ const OurStory = () => {
           </div>
           <div className="cd-timeline-block">
             <div className="cd-timeline-img">
-              {/* <img src={car} className="icon smallIcon" alt="car icon" /> */}
+              <img src={greenDay} className="icon smallIcon" alt="car icon" />
             </div>
             <div className="cd-timeline-content">
               <h3>August 2021</h3>
@@ -106,7 +114,7 @@ const OurStory = () => {
           </div>
           <div className="cd-timeline-block">
             <div className="cd-timeline-img">
-              {/* <img src={car} className="icon smallIcon" alt="car icon" /> */}
+              <img src={helmet} className="icon smallIcon" alt="car icon" />
             </div>
             <div className="cd-timeline-content">
               <h3>September 2021</h3>
@@ -120,7 +128,7 @@ const OurStory = () => {
           </div>
           <div className="cd-timeline-block">
             <div className="cd-timeline-img">
-              {/* <img src={car} className="icon smallIcon" alt="car icon" /> */}
+              <img src={cake} className="icon smallIcon" alt="car icon" />
             </div>
             <div className="cd-timeline-content">
               <h3>July 2022</h3>
@@ -132,7 +140,11 @@ const OurStory = () => {
           </div>
           <div className="cd-timeline-block">
             <div className="cd-timeline-img">
-              {/* <img src={car} className="icon smallIcon" alt="car icon" /> */}
+              <img
+                src={airplane}
+                className="icon smallIcon loweredIcon"
+                alt="car icon"
+              />
             </div>
             <div className="cd-timeline-content">
               <h3>January 2023</h3>
@@ -145,7 +157,7 @@ const OurStory = () => {
           </div>
           <div className="cd-timeline-block">
             <div className="cd-timeline-img">
-              {/* <img src={car} className="icon smallIcon" alt="car icon" /> */}
+              <img src={cowboy} className="icon smallIcon" alt="car icon" />
             </div>
             <div className="cd-timeline-content">
               <h3>July 2023</h3>
@@ -180,7 +192,11 @@ const OurStory = () => {
           </div>
           <div className="cd-timeline-block">
             <div className="cd-timeline-img">
-              <img src={house} className="icon smallIcon" alt="house icon" />
+              <img
+                src={snowflake}
+                className="icon smallIcon"
+                alt="house icon"
+              />
             </div>
             <div className="cd-timeline-content">
               <h3>Winter 2023</h3>
@@ -192,7 +208,7 @@ const OurStory = () => {
           </div>
           <div className="cd-timeline-block">
             <div className="cd-timeline-img">
-              {/* <img src={house} className="icon smallIcon" alt="house icon" /> */}
+              <img src={tent} className="icon smallIcon" alt="tent icon" />
             </div>
             <div className="cd-timeline-content">
               <h3>June 2024</h3>
@@ -230,7 +246,11 @@ const OurStory = () => {
           </div>
           <div className="cd-timeline-block">
             <div className="cd-timeline-img">
-              {/* <img src={house} className="icon smallIcon" alt="house icon" /> */}
+              <img
+                src={heart}
+                className="icon smallIcon loweredIcon"
+                alt="heart icon"
+              />
             </div>
             <div className="cd-timeline-content">
               <h3>2025</h3>

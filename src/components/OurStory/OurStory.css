@@ -97,8 +97,12 @@
 .smallIcon {
   width: 40px;
   height: 40px;
-  left: 16%;
-  top: 15%;
+  left: 18%;
+  top: 16%;
+}
+
+.loweredIcon {
+  top: 20%;
 }
 
 /* End timeline code */

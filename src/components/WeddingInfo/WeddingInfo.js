@@ -5,6 +5,7 @@ import HHSA from '../../images/attractions/Hyland_Hills_Ski_Area_Logo.png';
 import Mia from '../../images/attractions/mia_logo.png';
 // import MFalls from '../../images/attractions/minnehaha_falls.jpg';
 import ParksAndRec from '../../images/attractions/parks_logo.jpg';
+import hotel from '../../images/weddingInfo/intercontinental.jpg';
 
 const WeddingInfo = () => {
   return (
@@ -12,23 +13,83 @@ const WeddingInfo = () => {
       <div className="headingContainer">
         <div className="headingContent">
           <h1>Wedding Information</h1>
-          <p>Check out the plan for our day here!</p>
         </div>
       </div>
       <section className="infoBlockContainer">
         <div className="infoBlock">
           <h2>Ceremony and Reception</h2>
-          <p>[Name of hotel] Hotel</p>
-          <p>[Hotel address line 1]</p>
-          <p>[Hotel address line 2]</p>
+          <img
+            src={hotel}
+            className="tightContent"
+            alt="intercontinental hotel"
+          />
+          <div className="hotelDetails">
+            <a href="https://www.intercontinentalmsp.com/" target="_blank">
+              <h4>InterContinental Minneapolis - St. Paul Airport</h4>
+            </a>
+            <p>5005 Glumack Dr, Minneapolis, MN 55450</p>
+            <p>(612)-725-0500</p>
+          </div>
         </div>
         <div className="infoBlock">
           <h2>Directions</h2>
-          <p>Google maps iFrame to location here.</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d90468.74169469772!2d-93.28375872547178!3d44.8796333738846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x87f62ecb25946c01%3A0xb98bb7b79a3d5dcf!2s5005%20Glumack%20Dr%2C%20Minneapolis%2C%20MN%2055450!3m2!1d44.879663!2d-93.2013581!5e0!3m2!1sen!2sus!4v1742944822701!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <p>
+            If you are arriving from the airport, follow these steps from the
+            hotel's FAQ page to get to the hotel:
+          </p>
+          <ul className="directions tightContent">
+            <li>
+              <strong>From terminal 2:</strong> go to the hotel/taxi cab/shuttle
+              pick up area and call hotel to schedule a pick-up.
+            </li>
+            <br />
+            <li>
+              <strong>From terminal 1:</strong> leave blue ramp via walkway into
+              gold ramp where ground transportation is located. Go to hotel/taxi
+              cab/ shuttle pick up area-you will head to the side closest to the
+              super shuttles-look for the sign with the Intercontinental logo on
+              it.
+            </li>
+          </ul>
+        </div>
+        <div className="infoBlock">
+          <h2>Parking</h2>
+          <p>
+            Parking is available in a ramp at the hotel for a daily fee which
+            will be discounted--just be sure to mention our wedding!
+          </p>
         </div>
         <div className="infoBlock">
           <h2>Accommodations</h2>
-          <p>Hotel + others nearby.</p>
+          <div className="tightContent">
+            <p>
+              The closest option is the Intercontinental itself! Other nearby
+              options include the{' '}
+              <a
+                href="https://www.hyatt.com/hyatt-regency/en-US/msprb-hyatt-regency-bloomington-minneapolis"
+                target="_blank"
+              >
+                Hyatt Regency Bloomington - Minneapolis
+              </a>{' '}
+              and the{' '}
+              <a
+                href="https://www.marriott.com/en-us/hotels/mspel-element-bloomington-mall-of-america/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+                target="_blank"
+              >
+                Element Bloomington Mall of America
+              </a>{' '}
+              to name a few. There are many options in the area!
+            </p>
+          </div>
         </div>
         <div className="infoBlock">
           <h2>Bridal Party</h2>
@@ -36,61 +97,38 @@ const WeddingInfo = () => {
             <div className="gridItem party">
               <h3>Anna Schmidt</h3>
               <p>Maid of Honor</p>
-              <p>Best friend of the bride</p>
-              <a href="https://www.mallofamerica.com/" target="_blank">
-                <img src={Moa} alt="Mall of America star logo" />
-              </a>
+              <p>Hometown friend</p>
+              {/* <img src={Moa} alt="Mall of America star logo" /> */}
+            </div>
+            <div className="gridItem party">
+              <h3>Gen Farley</h3>
+              <p>Bridesmaid</p>
+              <p>Sister in law</p>
+              {/* <img src={Moa} alt="Mall of America star logo" /> */}
+            </div>
+            <div className="gridItem party">
+              <h3>Katelyn Leets Pietruniak</h3>
+              <p>Bridesmaid</p>
+              <p>Sister in law</p>
+              {/* <img src={Mia} alt="Minneapolis Institute of Art logo" /> */}
+            </div>
+            <div className="gridItem party">
+              <h3>Katie Farley</h3>
+              <p>Bridesmaid</p>
+              <p>Sister in law</p>
+              {/* <img src={HHSA} alt="Hyland Hills SKi Area logo" /> */}
+            </div>
+            <div className="gridItem party">
+              <h3>Megan Boland</h3>
+              <p>Bridesmaid</p>
+              <p>College friend</p>
+              {/* <img src={Mia} alt="Minneapolis Institute of Art logo" /> */}
             </div>
             <div className="gridItem party">
               <h3>Oriana Vile</h3>
               <p>Bridesmaid</p>
-              <p>Best friend of the bride</p>
-              <a
-                href="https://www.minneapolisparks.org/parks-destinations/parks-lakes/minnehaha_regional_park/"
-                target="_blank"
-              >
-                <img src={ParksAndRec} alt="Minnehaha Falls during winter" />
-              </a>
-            </div>
-            <div className="gridItem party">
-              <h3>Minneapolis Institute of Art</h3>
-              <p>
-                Home to more than 100,000 works of art representing 5,000 years
-                of world history. General admission is free.
-              </p>
-              <a href="https://new.artsmia.org/" target="_blank">
-                <img src={Mia} alt="Minneapolis Institute of Art logo" />
-              </a>
-            </div>
-            <div className="gridItem party">
-              <h3>Mall of America</h3>
-              <p>
-                Largest mall in the United States with over 520 stores, includes
-                an indoor amusement park, an aquarium, arcades and mini golf.
-              </p>
-              <a href="https://www.mallofamerica.com/" target="_blank">
-                <img src={Moa} alt="Mall of America star logo" />
-              </a>
-            </div>
-            <div className="gridItem party">
-              <h3>Hyland Hills Ski Area</h3>
-              <p>Hill for downhill skiing and snowboarding.</p>
-              <a
-                href="https://www.threeriversparks.org/location/hyland-hills-ski-area"
-                target="_blank"
-              >
-                <img src={HHSA} alt="Hyland Hills SKi Area logo" />
-              </a>
-            </div>
-            <div className="gridItem party">
-              <h3>Minneapolis Institute of Art</h3>
-              <p>
-                Home to more than 100,000 works of art representing 5,000 years
-                of world history. General admission is free.
-              </p>
-              <a href="https://new.artsmia.org/" target="_blank">
-                <img src={Mia} alt="Minneapolis Institute of Art logo" />
-              </a>
+              <p>College friend</p>
+              {/* <img src={ParksAndRec} alt="Minnehaha Falls during winter" /> */}
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import './Registry.css';
 import knot from '../../images/registry/the_knot_pink.jpg';
 import amazon from '../../images/registry/amazon.png';
-import depot from '../../images/registry/home_depot.png';
+import myregistry from '../../images/registry/myregistry.png';
 
 const Registry = () => {
   return (
@@ -14,16 +14,22 @@ const Registry = () => {
             <p>We are registered under the following stores:</p>
             <div className="registryItems">
               <div className="registryItem">
-                <a href="" target="_blank">
+                <a
+                  href="https://www.myregistry.com/wedding-registry/samantha-farley-and-scott-pietruniak-boston-ma/4745275"
+                  target="_blank"
+                >
                   <img
-                    src={depot}
+                    src={myregistry}
                     className="smallContent"
                     alt="home depot logo"
                   />
                 </a>
                 <p>
-                  Check out our Home Depot shopping list{' '}
-                  <a href="" target="_blank">
+                  Check out our MyRegistry.com shopping list{' '}
+                  <a
+                    href="https://www.myregistry.com/wedding-registry/samantha-farley-and-scott-pietruniak-boston-ma/4745275"
+                    target="_blank"
+                  >
                     here
                   </a>
                   .

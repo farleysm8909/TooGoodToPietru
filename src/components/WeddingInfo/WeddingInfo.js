@@ -20,7 +20,7 @@ const WeddingInfo = () => {
           <h2>Ceremony and Reception</h2>
           <img
             src={hotel}
-            className="tightContent"
+            className="mediumContent"
             alt="intercontinental hotel"
           />
           <div className="hotelDetails">
@@ -46,7 +46,7 @@ const WeddingInfo = () => {
             If you are arriving from the airport, follow these steps from the
             hotel's FAQ page to get to the hotel:
           </p>
-          <ul className="directions tightContent">
+          <ul className="directions mediumContent">
             <li>
               <strong>From terminal 2:</strong> go to the hotel/taxi cab/shuttle
               pick up area and call hotel to schedule a pick-up.
@@ -70,7 +70,7 @@ const WeddingInfo = () => {
         </div>
         <div className="infoBlock">
           <h2>Accommodations</h2>
-          <div className="tightContent">
+          <div className="mediumContent">
             <p>
               The closest option is the Intercontinental itself! Other nearby
               options include the{' '}

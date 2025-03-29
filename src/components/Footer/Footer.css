@@ -10,3 +10,11 @@
   flex-direction: column;
   justify-content: center;
 }
+
+h4 {
+  margin: 0;
+}
+
+.attribution {
+  font-size: small;
+}

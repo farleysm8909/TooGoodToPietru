@@ -6,6 +6,10 @@ import Mia from '../../images/attractions/mia_logo.png';
 // import MFalls from '../../images/attractions/minnehaha_falls.jpg';
 import ParksAndRec from '../../images/attractions/parks_logo.jpg';
 import hotel from '../../images/weddingInfo/intercontinental.jpg';
+import Anna from '../../images/party/anna.jpeg';
+import Katelyn from '../../images/party/katelyn.jpeg';
+import Ori from '../../images/party/ori.jpeg';
+import Gen from '../../images/party/gen.jpeg';
 
 const WeddingInfo = () => {
   return (
@@ -98,19 +102,25 @@ const WeddingInfo = () => {
               <h3>Anna Schmidt</h3>
               <p>Maid of Honor</p>
               <p>Hometown friend</p>
-              {/* <img src={Moa} alt="Mall of America star logo" /> */}
+              <div className="gridImage">
+                <img src={Anna} alt="Anna Schmidt" />
+              </div>
             </div>
             <div className="gridItem party">
               <h3>Gen Farley</h3>
               <p>Bridesmaid</p>
               <p>Sister in law</p>
-              {/* <img src={Moa} alt="Mall of America star logo" /> */}
+              <div className="gridImage">
+                <img src={Gen} alt="Gen Farley" />
+              </div>
             </div>
             <div className="gridItem party">
               <h3>Katelyn Leets Pietruniak</h3>
               <p>Bridesmaid</p>
               <p>Sister in law</p>
-              {/* <img src={Mia} alt="Minneapolis Institute of Art logo" /> */}
+              <div className="gridImage">
+                <img src={Katelyn} alt="Katelyn Leets Pietruniak" />
+              </div>
             </div>
             <div className="gridItem party">
               <h3>Katie Farley</h3>
@@ -128,7 +138,9 @@ const WeddingInfo = () => {
               <h3>Oriana Vile</h3>
               <p>Bridesmaid</p>
               <p>College friend</p>
-              {/* <img src={ParksAndRec} alt="Minnehaha Falls during winter" /> */}
+              <div className="gridImage">
+                <img src={Ori} alt="Oriana Vile" />
+              </div>
             </div>
           </div>
         </div>

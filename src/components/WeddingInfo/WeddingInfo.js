@@ -6,6 +6,10 @@ import Anna from '../../images/party/anna.jpeg';
 import Katelyn from '../../images/party/katelyn_crop.jpeg';
 import Ori from '../../images/party/ori.jpeg';
 import Gen from '../../images/party/gen.jpeg';
+import Megan from '../../images/party/megan.jpg';
+import Katie from '../../images/party/katie.jpg';
+import Girls from '../../images/party/girls.jpg';
+import Thomas from '../../images/party/thomas.jpg';
 
 const WeddingInfo = () => {
   return (
@@ -134,12 +138,16 @@ const WeddingInfo = () => {
               <div className="gridItem party">
                 <h3>Katie Farley</h3>
                 <p>bridesmaid & sister in law</p>
-                {/* <img src={HHSA} alt="Hyland Hills SKi Area logo" /> */}
+                <div className="gridImage">
+                  <img src={Katie} alt="Katie Farley" />
+                </div>
               </div>
               <div className="gridItem party">
                 <h3>Megan Boland</h3>
                 <p>bridesmaid & college friend</p>
-                {/* <img src={Mia} alt="Minneapolis Institute of Art logo" /> */}
+                <div className="gridImage">
+                  <img src={Megan} alt="Megan Boland" />
+                </div>
               </div>
               <div className="gridItem party">
                 <h3>Oriana Vile</h3>
@@ -152,11 +160,19 @@ const WeddingInfo = () => {
           </div>
           <div className="infoBlock">
             <h2>Groomsmen</h2>
-            <p>Grid of folks in the bridal party here.</p>
+            <p>Grid of the groomsmen here.</p>
           </div>
           <div className="infoBlock">
             <h2>Extra Help</h2>
-            <p>Grid of Madi, Livy and Amelia here.</p>
+            <div className="gridContainer">
+              <div className="gridItem party">
+                <h3>Madi, Livy & Amelia Farley</h3>
+                <p>flower girls & nieces</p>
+                <div className="gridImage">
+                  <img src={Girls} alt="Madi, Livy, and Amelia Farley" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

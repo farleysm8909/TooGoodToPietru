@@ -60,7 +60,7 @@ const WeddingInfo = () => {
                   into gold ramp where ground transportation is located. Go to
                   hotel/taxi cab/ shuttle pick up area-you will head to the side
                   closest to the super shuttles-look for the sign with the
-                  Intercontinental logo on it.
+                  InterContinental logo on it.
                 </li>
               </ul>
             </div>
@@ -79,7 +79,7 @@ const WeddingInfo = () => {
             <div className="mediumContent">
               <div className="gridText">
                 <p>
-                  The closest option is the Intercontinental itself! Other
+                  The closest option is the InterContinental itself! Other
                   nearby options include the{' '}
                   <Link
                     href="https://www.hyatt.com/hyatt-regency/en-US/msprb-hyatt-regency-bloomington-minneapolis"
@@ -102,9 +102,7 @@ const WeddingInfo = () => {
                       to="https://www.intercontinental.com/redirect?path=rates&brandCode=IC&localeCode=en&regionCode=1&hotelCode=MSPHA&checkInDate=30&checkInMonthYear=112025&checkOutDate=04&checkOutMonthYear=002026&_PMID=99801505&GPC=FPW&cn=no&viewfullsite=true"
                       target="_blank"
                     >
-                      <button id="rsvpBtn">
-                        Reserve a Room at the InterContinental
-                      </button>
+                      <button id="rsvpBtn">Reserve at InterContinental</button>
                     </Link>
                   </p>
                 </div>

@@ -17,8 +17,8 @@ import snowflake from '../../images/icons/snowflake.png';
 
 const OurStory = () => {
   return (
-    <div className="storyPageContainer">
-      <div className="storyPageContent">
+    <div className="pageContainer">
+      <div className="pageContent">
         <div className="headingContainer">
           <div className="headingContent">
             <h1>Our Story</h1>

@@ -6,8 +6,8 @@ import myregistry from '../../images/registry/myregistry.png';
 
 const Registry = () => {
   return (
-    <div className="registryPageContainer">
-      <div className="registryPageContent">
+    <div className="pageContainer">
+      <div className="pageContent">
         <div className="headingContainer">
           <div className="headingContent">
             <h1>Our Registry</h1>

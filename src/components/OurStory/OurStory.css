@@ -1,15 +1,3 @@
-.storyPageContainer {
-  width: 100%;
-  margin-bottom: 4rem;
-}
-
-.storyPageContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 10%;
-}
-
 /* Timeline code adapted from Script Tutorials
    https://www.script-tutorials.com/vertical-timeline-with-css-and-javascript/ */
 
@@ -142,10 +130,6 @@
 }
 
 @media (max-width: 800px) {
-  .storyPageContent {
-    margin: 0;
-  }
-
   #tooGoodToPietru {
     width: 90%;
     margin: 10%;

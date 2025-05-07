@@ -1,22 +1,4 @@
-.registryPageContainer {
-  width: 100%;
-  margin-bottom: 4rem;
-}
-
-.registryPageContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 10%;
-}
-
 /* --------RESPONSIVE DESIGN-------- */
-
-@media (max-width: 800px) {
-  .registryPageContent {
-    margin: 0;
-  }
-}
 
 @media (max-width: 400px) {
   .smallContent {

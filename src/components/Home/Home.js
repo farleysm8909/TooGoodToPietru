@@ -20,13 +20,6 @@ const Home = () => {
           >
             <button id="rsvpBtn">Reserve a Room</button>
           </Link>
-          {/* <a
-              href="
-https://www.intercontinental.com/redirect?path=rates&brandCode=IC&localeCode=en&regionCode=1&hotelCode=MSPHA&checkInDate=30&checkInMonthYear=112025&checkOutDate=04&checkOutMonthYear=002026&_PMID=99801505&GPC=FPW&cn=no&viewfullsite=true"
-              target="_blank"
-            >
-              Reserve a Room
-            </a> */}
         </p>
       </div>
       <img src={Hero} className="heroImg" alt="Sam and Scott" />

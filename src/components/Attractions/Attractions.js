@@ -1,5 +1,6 @@
 import React from 'react';
 import './Attractions.css';
+import { Link } from 'react-router-dom';
 import Moa from '../../images/attractions/mall_of_america.png';
 import HHSA from '../../images/attractions/Hyland_Hills_Ski_Area_Logo.png';
 import Mia from '../../images/attractions/mia_logo.png';
@@ -9,8 +10,8 @@ import Dakota from '../../images/attractions/dakota.jpg';
 
 const Attractions = () => {
   return (
-    <div className="attractionsPageContainer">
-      <div className="attractionsPageContent">
+    <div className="pageContainer">
+      <div className="pageContent">
         <div className="headingContainer">
           <div className="headingContent">
             <h1>Attractions</h1>
@@ -23,9 +24,9 @@ const Attractions = () => {
         <div className="gridContainer">
           <div className="gridItem attraction">
             <div className="gridImage">
-              <a href="https://www.mallofamerica.com/" target="_blank">
+              <Link to="https://www.mallofamerica.com/" target="_blank">
                 <img src={Moa} alt="Mall of America star logo" />
-              </a>
+              </Link>
             </div>
             <div className="gridText">
               <h3>Mall of America</h3>
@@ -38,12 +39,12 @@ const Attractions = () => {
           </div>
           <div className="gridItem attraction">
             <div className="gridImage">
-              <a
-                href="https://www.minneapolisparks.org/parks-destinations/parks-lakes/minnehaha_regional_park/"
+              <Link
+                to="https://www.minneapolisparks.org/parks-destinations/parks-lakes/minnehaha_regional_park/"
                 target="_blank"
               >
                 <img src={Minnehaha} alt="Minnehaha Falls during winter" />
-              </a>
+              </Link>
               <div className="gridText">
                 <h3>Minnehaha Falls and Regional Park</h3>
                 <p>
@@ -55,9 +56,9 @@ const Attractions = () => {
           </div>
           <div className="gridItem attraction">
             <div className="gridImage">
-              <a href="https://new.artsmia.org/" target="_blank">
+              <Link href="https://new.artsmia.org/" target="_blank">
                 <img src={Mia} alt="Minneapolis Institute of Art logo" />
-              </a>
+              </Link>
               <div className="gridText">
                 <h3>Minneapolis Institute of Art</h3>
                 <p>
@@ -69,9 +70,9 @@ const Attractions = () => {
           </div>
           <div className="gridItem attraction">
             <div className="gridImage">
-              <a href="https://www.dakotacooks.com/" target="_blank">
+              <Link href="https://www.dakotacooks.com/" target="_blank">
                 <img src={Dakota} alt="Dakota jazz bar and restaurant" />
-              </a>
+              </Link>
               <div className="gridText">
                 <h3>Dakota Jazz Bar and Restaurant</h3>
                 <p>
@@ -84,12 +85,12 @@ const Attractions = () => {
           </div>
           <div className="gridItem attraction">
             <div className="gridImage">
-              <a
+              <Link
                 href="https://www.threeriversparks.org/location/hyland-hills-ski-area"
                 target="_blank"
               >
                 <img src={HHSA} alt="Hyland Hills SKi Area logo" />
-              </a>
+              </Link>
               <div className="gridText">
                 <h3>Hyland Hills Ski Area</h3>
                 <p>Hill for downhill skiing and snowboarding.</p>
@@ -98,12 +99,12 @@ const Attractions = () => {
           </div>
           <div className="gridItem attraction">
             <div className="gridImage">
-              <a href="https://walkerart.org/" target="_blank">
+              <Link href="https://walkerart.org/" target="_blank">
                 <img
                   src={Walker}
                   alt="Walker Art Center spoon and cherry sculpture"
                 />
-              </a>
+              </Link>
               <div className="gridText">
                 <h3>Walker Art Center</h3>
                 <p>

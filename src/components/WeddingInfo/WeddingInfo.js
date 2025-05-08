@@ -7,9 +7,16 @@ import Katelyn from '../../images/party/katelyn_crop.jpeg';
 import Ori from '../../images/party/ori.jpeg';
 import Gen from '../../images/party/gen.jpeg';
 import Megan from '../../images/party/megan.jpg';
-import Katie from '../../images/party/katie.jpg';
+import Katie from '../../images/party/katie_crop.jpg';
 import Girls from '../../images/party/girls.jpg';
-import Thomas from '../../images/party/thomas.jpg';
+import Thomas from '../../images/party/thomas_fish.jpg';
+import Shawn from '../../images/party/shawn.jpg';
+import Ian from '../../images/party/ian.jpg';
+import Ryan from '../../images/party/ryan_crop.jpg';
+import Steve from '../../images/party/steve.jpg';
+import Ken from '../../images/party/ken.jpg';
+import Nick from '../../images/party/nick.jpeg';
+import Ben from '../../images/party/ben.JPG';
 
 const WeddingInfo = () => {
   return (
@@ -158,7 +165,64 @@ const WeddingInfo = () => {
           </div>
           <div className="infoBlock">
             <h2>Groomsmen</h2>
-            <p>Grid of the groomsmen here.</p>
+            <div className="gridContainer">
+              <div className="gridItem party">
+                <h3>Steve Pietruniak</h3>
+                <p>best man & brother</p>
+                <div className="gridImage">
+                  <img src={Steve} alt="Steve Pietruniak" />
+                </div>
+              </div>
+              <div className="gridItem party">
+                <h3>Ben Farley</h3>
+                <p>groomsman & brother in law</p>
+                <div className="gridImage">
+                  <img src={Ben} alt="Ben Farley" />
+                </div>
+              </div>
+              <div className="gridItem party">
+                <h3>Ian Potash</h3>
+                <p>groomsman & hometown friend</p>
+                <div className="gridImage">
+                  <img src={Ian} alt="Ian Potash" />
+                </div>
+              </div>
+              <div className="gridItem party">
+                <h3>Ken Brill</h3>
+                <p>groomsman & hometown friend</p>
+                <div className="gridImage">
+                  <img src={Ken} alt="Ken Brill" />
+                </div>
+              </div>
+              <div className="gridItem party">
+                <h3>Nick Waldron</h3>
+                <p>groomsman & college friend</p>
+                <div className="gridImage">
+                  <img src={Nick} alt="Nick Waldron" />
+                </div>
+              </div>
+              <div className="gridItem party">
+                <h3>Ryan Fitzpatrick</h3>
+                <p>groomsman & hometown friend</p>
+                <div className="gridImage">
+                  <img src={Ryan} alt="Ryan Fitzpatrick" />
+                </div>
+              </div>
+              <div className="gridItem party">
+                <h3>Shawn Davern</h3>
+                <p>groomsman & hometown friend</p>
+                <div className="gridImage">
+                  <img src={Shawn} alt="Shawn Davern" />
+                </div>
+              </div>
+              <div className="gridItem party">
+                <h3>Thomas Farley</h3>
+                <p>groomsman & brother in law</p>
+                <div className="gridImage">
+                  <img src={Thomas} alt="Thomas Farley" />
+                </div>
+              </div>
+            </div>
           </div>
           <div className="infoBlock">
             <h2>Extra Help</h2>

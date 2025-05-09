@@ -17,11 +17,11 @@ const RSVP = () => {
             </p>
             <p>
               In the meantime, consider booking your hotel room at our venue,
-              the InterContinental. The discounted rate is available until
-              November 30th, but this is subject to room availability. We
-              anticipate the majority of our guests will stay at this hotel as
-              it is where our rehearsal dinner, ceremony and reception will be,
-              so be sure to book your stay as soon as possible.
+              the InterContinental. We have a room block with discounted rate
+              (access via link below), but it is subject to room availability.
+              We anticipate the majority of our guests will stay at this hotel
+              as it is where our rehearsal dinner, ceremony and reception will
+              be, so be sure to book your stay as soon as possible!
             </p>
             <div className="buttonContainer">
               <p>

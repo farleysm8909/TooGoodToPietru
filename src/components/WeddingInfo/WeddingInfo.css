@@ -48,7 +48,7 @@ iframe {
 
 /* --------RESPONSIVE DESIGN-------- */
 
-@media (max-width: 800px) {
+@media (max-width: 815px) {
   .mediumImg {
     width: 100%;
   }
@@ -56,6 +56,10 @@ iframe {
   .infoBlockItem {
     width: 90%;
     margin: 8px 0px;
+  }
+
+  .mediumContent {
+    width: 100%;
   }
 }
 

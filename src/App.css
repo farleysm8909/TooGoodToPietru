@@ -80,6 +80,7 @@ body {
 
 .gridText {
   padding: 1.5em;
+  max-width: 800px;
 }
 
 .mediumContent {
